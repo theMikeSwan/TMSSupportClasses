@@ -29,6 +29,7 @@
 @property (weak) NSObject <TMSiCloudDelegate> *delegate;
 @property (strong, atomic) NSURL *documentURL;
 
+- (IBAction)openFromCloud:(id)sender;
 - (void)sendFile:(NSURL *)local toContainer:(NSString *)container;
 @end
 

@@ -28,5 +28,5 @@
 @interface TMSiCloudDocument : NSDocument <TMSiCloudDelegate> {
     TMSiCloud *iCloud;
 }
-
+- (IBAction) sendToiCloud:(id)sender;
 @end
